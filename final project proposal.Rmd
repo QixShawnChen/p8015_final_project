@@ -1,0 +1,60 @@
+---
+title: "final project proposal"
+author: "Qixiang Chen"
+date: "11/13/2021"
+output: github_document
+---
+
+# Final Project Proposal
+
+## The group members (names and UNIs)
+Hanfu Shi hs3239
+Qixiang Chen qc2307
+Guiqi Cai gc2942
+Paulina Han qh2251
+Huili Zheng hz2710
+
+## The tentative project title
+You’re going to be late!!
+
+## The motivation for this project
+Project inspiration
+A few days ago, our team member Huili Zheng experienced a school bus delay, which caused her to be late for our first meeting and brought us cookies as an apology and her breakfast. However, no one ate the cookies during the three-hours meeting. This anecdote helped us realize: First, nobody likes to eat cookies for breakfast. Second, We all experienced a lot of school bus delays. What’s behind the delays? Is it caused by weather conditions or heavy traffic? When and where are they delayed? Do students receive alerts? We wonder if we could predict the odds of school bus delays to some extent.
+
+## The intended final products
+Being late always makes us anxious and nervous. Because we don’t want to be late most of the time, especially for school and work. Even if we can plan anything ahead of time, some unpredictable events like heavy traffic, bus breakdown, and bad weather will make our day worse and unpleasant. We want to provide a convenient app for people to check the probability of being late, the best routines, and the best transportation of the day. We also want to avoid any downside effect of being late to every individual and reduce the travel time by saving more time at school and work. Thus, the final products will be a report regarding the distributions and relationships between different variables and delays and a cool prediction for people to check the probability of being late and how long they have to wait for the delayed bus.
+
+## The anticipated data sources
+Data sources NYC open data Link: https://data.cityofnewyork.us/Transportation/Bus-Breakdown-and-Delays/ez4e-fazm
+Weather: NOAA datasets
+
+## The planned analyses/visualizations / coding challenges
+### Data analysis: 
+We would look at the bus delay data from 1/1/2018 to 9/30/2021 for better prediction precision.  We also want to combine our bus delay data with the NYC weather data to see the association between delays and weather conditions. First, we would conduct exploratory data analysis to give the audience a general idea of our project data set. For example, we would look into the average daily delays per month, average daily delay time per month, most frequent daily delay reasons, how long certain reasons delay takes, where most delays happen, bus delay time per school, and average bus delays on different weather conditions.Then, we would focus on modeling. Our goal is to predict the bus delay time given certain traveling details. Linear regression model, linear regression with a penalty, and machine learning methods will be compared to find the best model of prediction. Dividing the data into training and testing sets is necessary and MSEs will be compared in our study.
+ 
+### Visualization:
+We have decided to use a webpage to perform some fancy dynamic effects which serves to help readers understand the project easily. The necessary background materials, pictures, and videos will be contained and integrated as a well-designed webpage. In the analysis part, we will use diagrams and forms to make everything look clear. “Plotly”will be used frequently to mark everything necessary. Thus, whenever you want to know the detailed information on those plots, you can get that immediately. Not only the analysis steps and code will be provided, there will be a separate dashboard that includes all the important plots.
+Some Expected Graphs and Forms:
+1. Firstly, a histogram will be used to show how frequent the bus delay in New York City.
+2. To be more specific, a bar chart will be used to show the length of time for each bus delay.
+3. To make a confidence interval for the mean of time for bus delay, the graph of normal distribution will be used to do auxiliary analysis.
+4. All the important data such as mean, standard deviation, confidence interval, etc. will be integrated into a table.
+5. Further, a pie chart will be used to show the percentage of reasons that caused bus delays.
+6. After deriving the final regression model, we will also depict a curve about time delay with respect to time or other variables if necessary and applicable.
+ 
+### coding challenges:
+1.Combining different data sets: There might be some incompatibilities between two different datasets.
+2.Data analysis and inference: In the process of analysis, several types of hypothesis tests would be unavoidable. Due to insufficient practice, there may be some difficulties in the process.
+3.Regression: When we do regression, we have to focus on the covariance between variables and it may be necessary to solve some time-series issues by using code, which is a challenge.  
+
+## The planned timeline
+11.5-11.10 Complete background research,collect related dataset
+                  Zoom meeting: discussing the proposal and timeline
+11.13 Complete proposal
+11.16-11.19 Zoom meeting:  discussing the next steps and wrangling data
+11.20-11.26 visualizations and comments 
+11.27-12.4  further data analysis, and create a webpage 
+12.4-12.10  perspective work and prediction
+12.11 complete our final project
+12.16 in-class discussion
+
